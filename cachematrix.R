@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+#This function store calculated inverted matrix - steInvertedMatrix and 
+#allowes to use it later on without recalculation from storage by calling getInvertedMatrix
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -25,7 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+
+## This function calculate inverted Matrix by calling getInvertedMatrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
